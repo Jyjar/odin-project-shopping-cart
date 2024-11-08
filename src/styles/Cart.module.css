@@ -1,0 +1,104 @@
+.cart {
+    padding: 50px;
+}
+
+.emptyCart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.emptyCart > h3 {
+    font-size: 40px;
+}
+
+.emptyCart > p {
+    font-size: 18px;
+    color: black;
+}
+
+.shopNowLink {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.shopNowLink:hover {
+    background-color: #e1462e;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px grey;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.leftSide > img {
+    width: 100px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightSide > p,
+.rightSide > h4 {
+    font-size: 20px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+    padding: 5px;
+    gap: 20px;
+}
+
+.add:hover {
+    border: solid 1px grey;
+}
+
+.minusButton,
+.plusButton {
+    border: none;
+    font-size: 35px;
+    background: none;
+    width: 40px;
+}
+
+.minusButton:hover,
+.plusButton:hover {
+    background-color: #1111;
+    border-radius: 10px;
+}
+
+.amount {
+    font-size: 25px;
+}
+
+.removeItem {
+    color: red;
+    padding: 5px;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.removeItem:hover {
+    color: rgb(128, 32, 32);
+}

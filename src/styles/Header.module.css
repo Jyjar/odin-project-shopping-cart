@@ -1,0 +1,28 @@
+.header {
+    background-color: #ffecce;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 1px 3px 10px grey;
+}
+
+.rightSide {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.storeName,
+.link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.storeName {
+    font-size: 35px;
+}
+
+.link {
+    font-size: 20px;
+}
