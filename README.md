@@ -1,15 +1,7 @@
-# React + Vite
+A simple project which simulates a store with a shop page to add items and a cart page which displays added items.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# my-first-react-app
-
-
-
-To start:
-npm install
-npm run dev
+Skills displayed:
+* React
+* React router
+* module-css
+* Fetching data in React
