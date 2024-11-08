@@ -45,7 +45,7 @@ function CartItem({ item }) {
                     <p className={cartStyle.amount}>{item.amount}</p>
                     <button className={cartStyle.plusButton} onClick={() => adjustItemQuantity(item.name, 1)}>+</button>
                 </div>
-                <p>135$</p>
+                <p>{Math.round(item.price * item.amount)}$</p>
                 <button className={cartStyle.removeItem} onClick={() => removeFromCart(item.name)}>Remove</button>
             </div>
         </div>
